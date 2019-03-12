@@ -6,7 +6,7 @@ const app = express();
 // Use the public directory we made for static files
 app.use(express.static('server/public'));
 
-// set port number, direct port listening
+// set port number, direct port listener
 const port = 5000;
 app.listen(port, function() {
    console.log(`Listening on port ${port}...`);
